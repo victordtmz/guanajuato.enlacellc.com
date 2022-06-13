@@ -61,8 +61,4 @@
             } ?>    
         </h2>
     </div>
-    </section>
-<section class="intro content-start">
-
-    
-
+</section>
