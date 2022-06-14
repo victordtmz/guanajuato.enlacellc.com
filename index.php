@@ -20,6 +20,6 @@
 <!-- Close content div before footer -->
 </div>
 <?php 
-    $footer = SHARED_PATH . '/' . $language . '_footer.php';
+    $footer = SHARED_PATH . '/footer.php';
     include($footer);
 ?>
