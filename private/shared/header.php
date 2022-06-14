@@ -16,6 +16,7 @@
     <title>Enlace LLC</title>
     <link rel="stylesheet" media="all" href="https://enlacellc.com/private/css/styles.css">
     <link rel="stylesheet" media="all" href="https://enlacellc.com/private/css/public.css">
+    <link rel="stylesheet" media="all" href="<?php echo url_for('private/css/styles.css'); ?>">
     <link rel="icon" type="images/x-icon" href="<?php echo url_for('private/images/enlace.ico'); ?>">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Franklin&display=swap" rel="stylesheet">
     <script src="<?php echo url_for('private/js/header.js'); ?>" defer></script>

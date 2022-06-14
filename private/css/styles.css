@@ -1,0 +1,93 @@
+/*
+##7EAED9 - LOGO BLUE
+##F29850 - LOGO ORANGE
+##A4A4A4 - LOGO GRAY
+#002142 db blue
+*/
+
+.sub-section{
+    padding: 2rem 0;
+}
+.content{
+    background: #eeeeee;
+}
+.servicio-descripcion *{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    /* list-style: disc; */
+    border-color: #003b75;
+}
+
+.servicio-descripcion h1{
+    
+    text-align: center;
+    padding-top: 2rem;
+    color: #003b75;
+}
+.servicio-descripcion h2, .servicio-descripcion h3{
+    color: #003b75;
+}
+
+.servicio-descripcion table th {
+    background-color: #002142;
+    color: #eeeeee;
+    text-align: center;
+    max-width: 200px;
+    /* border-color: #002142; */
+}
+.servicio-descripcion table td {
+    max-width: 200px;
+    border-color: #002142;
+}
+
+.servicio-descripcion ul li {
+    padding: .2rem .5rem;
+}
+
+.servicio-descripcion ul li ul li{
+    list-style: disc;
+}
+.servicio-descripcion ol li {
+    list-style-type:decimal;    
+    padding: 0;
+}
+
+.accordion-main{
+    margin: 1rem 0;
+    border: 2px solid #F29850;
+}
+.accordion-button{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #F29850 ;
+    color: #fff;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 500;
+    transition: 0.3s;
+    
+}
+
+.accordion-button::after{
+    content: '\25b6';
+    float: right;
+    /* transform: scale(1.); */
+}
+
+.accordion-button-active{background: #F29850;}
+.accordion-button-active::after{content: '\25bc';}
+
+.accordion-content {
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.3s;
+    padding: 0 1rem;
+    background: #fff5eb;
+}
+.accordion-content div {
+    margin: 1rem 0 2rem 0;
+}

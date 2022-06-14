@@ -1,3 +1,6 @@
+<?php
+redirect_to(url_for('index.php'))
+?>
 <section class="servicio-descripcion content_wrap">
     
     <h1>Residencia Permanente</h1>
@@ -14,13 +17,17 @@
         <button type="button" class="accordion-button">Costos:</button>
         <div class="accordion-content">
             <div>
-                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p><br>
-                <h5>$535.00 - Dólares | USCIS Filing Fee</h5>
-                <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p><br>
-
-                <h5>$8,500.00 - Pesos | Honorarios</h5>
-                <p>El pago se realiza para iniciar su trámite </p>
-                
+                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p>
+                <h4>$535.00 - Dólares | USCIS Filing Fee</h4>
+                <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p>
+                    </tr>
+                    <tr>
+                        <td>Honorarios</td>
+                        <td>$ 8,500.00</td>
+                        <td>Pesos</td>
+                        <td>El pago se realiza para iniciar su trámite</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -114,17 +121,33 @@
         <button type="button" class="accordion-button">Costos:</button>
         <div class="accordion-content">
             <div>
-                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p><br>
-                
-                <h5>$325.00 - Dólares | DS-160</h5>
-                <p>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </p><br>
-
-                <h5>$120.00 - Dólares | Affidavit of Support</h5>
-                <p>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </p><br>
-
-                <h5>$8,500.00 - Pesos | Honorarios</h5>
-                <p>El pago se realiza una vez que llega el número de caso del Centro Nacional de Visas. </p>
-
+                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p>
+                <table class="list">
+                    <tr>
+                        <th>Concepto:</th>
+                        <th>Monto:</th>
+                        <th>Moneda:</th>
+                        <th>Momento de pago:</th>
+                    </tr>
+                    <tr>
+                        <td>DS-160</td>
+                        <td>$ 325.00</td>
+                        <td>Dólares</td>
+                        <td>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </td>
+                    </tr>
+                    <tr>
+                        <td>Affidavit of Support</td>
+                        <td>$ 120.00</td>
+                        <td>Dólares</td>
+                        <td>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </td>
+                    </tr>
+                    <tr>
+                        <td>Honorarios</td>
+                        <td>$ 8,500.00</td>
+                        <td>Pesos</td>
+                        <td>El pago se realiza una vez que llega el número de caso del Centro Nacional de Visas</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
@@ -203,21 +226,37 @@
     <div class="accordion-main">
         <button type="button" class="accordion-button">Costos:</button>
         <div class="accordion-content">
-        <div>
+            <div>
                 <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p>
-                <p>Además de estos gastos, se debe considerar los víaticos a Ciudad Juárez, en donde se deberá quedar por lo menos 3 días</p><br>
-                
-                <h5>$235.00 - Dólares | Examén médico</h5>
-                <p>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </p><br>
-
-                <h5>$220.00 - Dólares | Cuota de migración</h5>
-                <p>Una vez que el Centro Nacional de Visas envia el número de caso para iniciar la solicitud de visa. </p><br>
-
-                <h5>$8,500.00 - Pesos | Honorarios</h5>
-                <p>El pago se realiza previo a que se le entregue su paquete completo para la entrevista. </p>
-
+                <p>Además de estos gastos, se debe considerar los víaticos a Ciudad Juárez, en donde se deberá quedar por lo menos 3 días</p>
+                <table class="list">
+                    <tr>
+                        <th>Concepto:</th>
+                        <th>Monto:</th>
+                        <th>Moneda:</th>
+                        <th>Momento de pago:</th>
+                    </tr>
+                    <tr>
+                        <td>Examén médico:</td>
+                        <td>$ 235.00</td>
+                        <td>Dólares</td>
+                        <td>Previo a la entrevista - El costo para menores de 15 años es de $193.00. </td>
+                    </tr>
+                    <tr>
+                        <td>Cuota de migración:</td>
+                        <td>$ 220.00</td>
+                        <td>Dólares</td>
+                        <td>Una vez aprobada la visa y antes de ingresar a Estados Unidos. </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Honorarios</td>
+                        <td>$ 8,500.00</td>
+                        <td>Pesos</td>
+                        <td>El pago se realiza previo a que se le entregue su paquete completo para la entrevista</td>
+                    </tr>
+                </table>
             </div>
-
         </div>
     </div>
 

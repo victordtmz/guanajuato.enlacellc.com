@@ -25,14 +25,6 @@
         </a>
       </div>
         
-      <div class="location-items">
-        <div class="location">
-          <h6>Estados Unidos:</h6>
-          <p>7511 W Arrowhead Ave, Suite A</p>
-          <p>Kennewick, WA 99336</p>
-          <p>(509) 619-0838</p>
-        </div>
-
         <div class="location">
           <h6>México:</h6>
           <p>Prolongación Mina 110, Centro</p>
