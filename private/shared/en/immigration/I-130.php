@@ -1,7 +1,7 @@
 <?php
 redirect_to(url_for('index.php'))
 ?>
-<section class="servicio-descripcion content_wrap">
+<section class="articulo content_wrap">
     
     <h1>Residencia Permanente</h1>
     <h2>I-130, Petición de residencia de un familiar</h2>

@@ -1,11 +1,26 @@
 <?php  
     // $language = $_SESSION['language'];
-    // $page = $_GET['page'] ?? 'index';
+    $page = $_GET['page'] ?? 'index';
     if($language == 'es'){
         $new_language = 'en';
+        $title = match ($page){
+            'immigration/I-130' => 'I-130',
+            'index' => 'Inicio',
+            'contact' => 'Contacto',
+            default => ''
+        };
     }else{
         $new_language = 'es';
+        
+        $title = match ($page){
+            'immigration/I-130' => 'I-130',
+            'index' => 'Home',
+            'contact' => 'Contact',
+            default => ''
+        };
     }
+    $title = "Enlace | $title";
+    
 ?>
 <!DOCTYPE html> 
 <html lang="en">
@@ -13,7 +28,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enlace LLC</title>
+    <title><?php echo $title; ?></title>
     <!-- <link rel="stylesheet" media="all" href="https://enlacellc.com/private/css/styles.css"> -->
     <!-- <link rel="stylesheet" media="all" href="https://enlacellc.com/private/css/public.css"> -->
     <link rel="stylesheet" media="all" href="<?php echo url_for('private/css/styles.css'); ?>">

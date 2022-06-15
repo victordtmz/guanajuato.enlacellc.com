@@ -10,7 +10,7 @@
         <div class="sec-items">
         
             <div class="img-item" >
-                <a href="<?php echo url_for('index.php?page=migratorios/I-130') ?>">
+                <a href="<?php echo url_for('index.php?page=immigration/I-130') ?>">
                 <img src="<?php echo url_for('private\images\brandon-mowinkel-UGi_Ng56FRI-unsplash.jpg'); ?>" alt="">
                 <div>
                 <h5>Residencia permanente</h5>
