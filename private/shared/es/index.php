@@ -10,11 +10,11 @@
         <div class="sec-items">
         
             <div class="img-item" >
-                <a href="<?php echo url_for('index.php?page=immigration/I-130') ?>">
+                <a href="<?php echo url_for('index.php?page=immigration/index') ?>">
                 <img src="<?php echo url_for('private\images\brandon-mowinkel-UGi_Ng56FRI-unsplash.jpg'); ?>" alt="">
                 <div>
-                <h5>Residencia permanente</h5>
-                <p>Te ayudamos con tu trámite de residencia permanente para Estados Unidos</p>
+                <h5>Migratorios</h5>
+                <p>Asuntos migratorios en México y Estados Unidos</p>
                 </div>  
                 </a>
             </div>

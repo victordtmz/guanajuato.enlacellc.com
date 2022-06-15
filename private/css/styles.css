@@ -154,7 +154,7 @@ background-color: #001a35;
     color: #213942;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     background: rgba(255, 255, 255, 0.5);
-    width: 60%;
+    
   }
   
   
@@ -774,6 +774,9 @@ background-color: #001a35;
   }
   
   @media screen and (min-width:1024px){
+    .img-item{
+      width: 60%;
+    }
     /* .menu_wrapper{ */
       /* max-height: 900px; */
     /* } */

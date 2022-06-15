@@ -5,6 +5,7 @@
         $new_language = 'en';
         $title = match ($page){
             'immigration/I-130' => 'I-130',
+            'immigration/index' => 'Migratorios',
             'index' => 'Inicio',
             'contact' => 'Contacto',
             default => ''
@@ -14,6 +15,7 @@
         
         $title = match ($page){
             'immigration/I-130' => 'I-130',
+            'immigration/index' => 'Immigration',
             'index' => 'Home',
             'contact' => 'Contact',
             default => ''
