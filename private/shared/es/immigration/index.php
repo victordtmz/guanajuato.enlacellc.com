@@ -15,13 +15,13 @@
         </div>
 
         <div class="img-item" >
-            <!-- <a href="<?php echo url_for('index.php?page=immigration/I-130') ?>"> -->
+            <a href="<?php echo url_for('index.php?page=immigration/CRBA') ?>">
             <img src="<?php echo url_for('private\images\crba.jpg'); ?>" alt="bonnie-kittle--f7bKsvOgwU-unsplash">
             <div>
             <h5>CRBA</h5>
             <p>Reporte Consular de Nacimiento en el Extranjero</p>
             </div>  
-            <!-- </a> -->
+            </a>
         </div>
 
         <div class="img-item" >
