@@ -4,11 +4,24 @@
     <h2>Reporte Consular de Nacimiento en el Extranjero</h2>
     <p>El Reporte Consular de Nacimiento en el Extranjero, CRBA por sus siglas en inglés, es el método mediante el cual, los hijos de Ciudadanos de Estados Unidos, que nacen en México, pueden obtener el reconocimiento de la ciudadanía estodounidense.</p>
 
-
-    
-    
-    <!-- Etapa 1 -->
+    <!-- Requisitos -->
     <div class="sub-section">
+    <div class="accordion-main">
+        <button type="button" class="accordion-button">Requisitos:</button>
+        <div class="accordion-content">
+            <div>
+                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p><br>
+                <h5>$535.00 - Dólares | USCIS Filing Fee</h5>
+                <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p><br>
+
+                <h5>$8,500.00 - Pesos | Honorarios</h5>
+                <p>El pago se realiza para iniciar su trámite </p>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Costos -->
     <div class="accordion-main">
         <button type="button" class="accordion-button">Costos:</button>
         <div class="accordion-content">
