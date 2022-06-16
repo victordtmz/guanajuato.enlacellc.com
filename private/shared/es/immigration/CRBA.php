@@ -7,10 +7,25 @@
     <!-- Requisitos -->
     <div class="sub-section">
     <div class="accordion-main">
+        <button type="button" class="accordion-button">Quien califica?:</button>
+        <div class="accordion-content">
+            <div>
+                <p>Para transferir la ciudadanía estadounidense a los hijos, los padres deben de reunir los siguientes requisitos: </p><br>
+                <h5>$535.00 - Dólares | USCIS Filing Fee</h5>
+                <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p><br>
+
+                <h5>$8,500.00 - Pesos | Honorarios</h5>
+                <p>El pago se realiza para iniciar su trámite </p>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Documentos  -->
+    <div class="accordion-main">
         <button type="button" class="accordion-button">Requisitos:</button>
         <div class="accordion-content">
             <div>
-                <p>Los costos están sujetos a cambio, se le respetará el monto establecido al momento de realizar su contración de los servicios, los servicios se consideran contratados con el pago de los honorarios.</p><br>
+                <p>Para transferir la ciudadanía estadounidense a los hijos, los padres deben de reunir los siguientes requisitos: </p><br>
                 <h5>$535.00 - Dólares | USCIS Filing Fee</h5>
                 <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p><br>
 
