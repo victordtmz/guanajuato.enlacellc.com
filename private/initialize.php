@@ -1,11 +1,18 @@
 <?php
     ob_start();
     session_start();
-    define("WWW_ROOT", '/guanajuato.enlacellc.com');
+
+    
     define('PRIVATE_FILES', dirname(__FILE__));
     define('PROJECT_PATH', dirname(PRIVATE_FILES));
     define('SHARED_PATH', PROJECT_PATH . '/private/shared');
     // define('SHARED', PRIVATE_FILES . '/shared');
+
+    if (str_contains(PRIVATE_FILES, 'C:\\')){
+        define("WWW_ROOT", '/guanajuato.enlacellc.com');
+    }else{
+        define("WWW_ROOT", 'https://guanajuato.enlacellc.com');
+    }
 
     require_once(PRIVATE_FILES . '/functions.php');
     // require_once(PRIVATE_FILES . '/database.php');
