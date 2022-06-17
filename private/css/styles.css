@@ -7,7 +7,7 @@
 
 *{
     margin: 0; 
-    padding: 0; 
+    padding: 0;  
     /* list-style: none; */
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -671,6 +671,19 @@ background-color: #001a35;
   }
   .accordion-content div {
       margin: 1rem 0 2rem 0;
+  }
+
+  .accordion-content div ol li ol li{
+    list-style-type:lower-alpha;
+    padding-left: 10px;
+  } 
+
+  .accordion-content a{
+    color: #7EAED9;
+    text-decoration: none;
+  }
+  .accordion-content a:hover{
+    color: #0051a1;
   }
   
   /*Migratorios

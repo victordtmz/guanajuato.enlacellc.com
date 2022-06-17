@@ -5,7 +5,7 @@
     </div>
     <div class="menu_items content_wrap">
         <div class="img-item" >
-            <a href="<?php echo url_for('index.php?page=immigration/I-130') ?>">
+            <a href="<?php echo url_for('index.php?page=immigration/I-130'); ?>">
             <img src="<?php echo url_for('private\images\liberty_icon.jpg'); ?>" alt="brandon-mowinkel-UGi_Ng56FRI-unsplash">
             <div>
             <h5>Residencia permanente</h5>

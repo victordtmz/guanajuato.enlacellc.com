@@ -2,21 +2,30 @@
     
     <h1>CRBA</h1>
     <h2>Reporte Consular de Nacimiento en el Extranjero</h2>
-    <p>El Reporte Consular de Nacimiento en el Extranjero, CRBA por sus siglas en inglés, es el método mediante el cual, los hijos de Ciudadanos de Estados Unidos, que nacen en México, pueden obtener el reconocimiento de la ciudadanía estodounidense.</p>
+    <p>El Reporte Consular de Nacimiento en el Extranjero, CRBA por sus siglas en inglés, es el método por el cual, los hijos de Ciudadanos de Estados Unidos, que nacen en México o en cualquier parte fuera de Estados Unidos, pueden obtener el reconocimiento de la ciudadanía estadounidense.</p>
 
     <!-- Requisitos -->
-    <div class="sub-section">
+<div class="sub-section">
     <div class="accordion-main">
-        <button type="button" class="accordion-button">Quien califica?:</button>
+        <button type="button" class="accordion-button">¿Quién califica?:</button>
         <div class="accordion-content">
             <div>
-                <p>Para transferir la ciudadanía estadounidense a los hijos, los padres deben de reunir los siguientes requisitos: </p><br>
-                <h5>$535.00 - Dólares | USCIS Filing Fee</h5>
-                <p>El pago se debe realizar a más tardar cuando se ha completado el paquete, se recomienda que se realize al momento de la contratación de nuestros servicios para poder efectuar el pago lo más pronto posible a USCIS y se inicie su trámite ante ellos. </p><br>
-
-                <h5>$8,500.00 - Pesos | Honorarios</h5>
-                <p>El pago se realiza para iniciar su trámite </p>
-                
+                <p>No todos los ciudadanos de Estados Unidos que tienen hijos en el extranjero pueden recurrir a este trámite, para calificar debes reunir los siguientes requisitos:</p>
+                <h5>Requisitos del padre que transmite la ciudadanía:</h5>
+                <p>El padre o madre ciudadano estadounidense que desea transmitir la ciudadanía debe reunir los siguientes requisitos: </p>
+                <ol>
+                    <li><b>Al momento del nacimiento del menor</b>, debes contar con la ciudadanía.</li>
+                    <li>Tener presencia física o residencia en Estados Unidos por lo menos de 5 años previos al nacimiento del menor. 
+                    <ol type="a" class="sub-list">
+                        <li>2 de los cuales deben ser después de la edad de 14.</li>
+                        <li>Existe una excepción para los hijos nacidos antes del 11 de junio de 2017.  Contáctanos para informarte si calificas. </li>
+                        <li>Esta es la regla general, existen excepciones, si gustas asesoría personalizada en base a tu caso ponte en contacto con nosotros. </li>
+                    </ol>
+                    </li>
+                    <li>Existencia de un lazo biológico entre el niño y el padre que transmite la ciudadanía. </li>
+                    <li>Existencia de un lazo legal entre el niño y el padre que transmite la ciudadanía. </li>
+                </ol><br>
+                <p>Si no calificas para este trámite y deseas llevar contigo a tu hijo a Estados Unidos, debes proceder con el trámite de <a href="<?php echo url_for('index.php?page=immigration/I-130'); ?> ">Residencia Permanente</a> y posteriormente con la naturalización de tu hijo.  </p>
             </div>
         </div>
     </div>
